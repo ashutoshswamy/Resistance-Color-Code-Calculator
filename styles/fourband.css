@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffcdb2;
+  color: #b5838d;
+}
+
+h1.title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+h3.firstband,
+h3.secondband,
+h3.thirdband,
+h3.fourthband {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.firstband-div,
+div.secondband-div,
+div.thirdband-div,
+div.fourthband-div {
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.submit-div {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3.answer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+div.back-div {
+  padding-top: 25px;
+  text-align: center;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
+  width: 150px;
+  height: 30px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  width: 150px;
+  height: 30px;
+}
