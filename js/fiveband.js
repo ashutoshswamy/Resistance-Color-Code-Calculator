@@ -9,5 +9,7 @@ function fiveband() {
   let resistance =
     (String(firstband) + String(secondband) + String(thirdband)) * fourthband;
 
-  answer.innerHTML = `Resistor Value<br>${resistance.toLocaleString()} Ohms ± ${fifthband}%`;
+  answer.innerHTML = `Resistor Value<br>${resistance.toLocaleString()} Ohms ± ${fifthband}%<br>${(
+    resistance / 1000
+  ).toLocaleString()} kOhms ± ${fifthband}%`;
 }

@@ -7,5 +7,7 @@ function fourband() {
 
   let resistance = (String(firstband) + String(secondband)) * thirdband;
 
-  answer.innerHTML = `Resistor Value<br>${resistance.toLocaleString()} Ohms ± ${fourthband}%`;
+  answer.innerHTML = `Resistor Value<br>${resistance.toLocaleString()} Ohms ± ${fourthband}%<br>${(
+    resistance / 1000
+  ).toLocaleString()} kOhms ± ${fourthband}%`;
 }
