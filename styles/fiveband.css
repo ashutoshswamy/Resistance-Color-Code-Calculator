@@ -1,55 +1,65 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ffcdb2;
-  color: #b5838d;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1.title {
-  padding-top: 50px;
+  color: #ffffff;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-h3.firstband,
-h3.secondband,
-h3.thirdband,
-h3.fourthband,
-h3.fifthband {
-  padding-top: 25px;
-  text-align: center;
+h3.band-title {
+  color: #ffffff;
+  margin: 20px 0 10px;
 }
 
-div.firstband-div,
-div.secondband-div,
-div.thirdband-div,
-div.fourthband-div,
-div.fifthband-div {
-  padding-top: 10px;
-  text-align: center;
-}
-
-div.submit-div {
-  padding-top: 25px;
-  text-align: center;
-}
-
-h3.answer {
-  padding-top: 50px;
-  text-align: center;
-}
-
-div.back-div {
-  padding-top: 25px;
-  text-align: center;
+.band-div {
+  margin-bottom: 20px;
 }
 
 select {
   font-family: "Poppins", sans-serif;
-  width: 150px;
-  height: 30px;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #e0e0e0;
+  width: 200px;
+  cursor: pointer;
+}
+
+.submit-div {
+  margin: 20px 0;
 }
 
 button {
   font-family: "Poppins", sans-serif;
-  width: 150px;
-  height: 30px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.answer {
+  margin-top: 20px;
+  color: #e0e0e0;
+}
+
+.back-div {
+  margin-top: 30px;
 }
